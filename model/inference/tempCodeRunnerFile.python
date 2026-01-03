@@ -1,0 +1,7 @@
+from league_table import fetch_league_table
+
+df = fetch_league_table("PL")
+
+print(df.head())
+print("Rows:", len(df))
+print(df.columns)
