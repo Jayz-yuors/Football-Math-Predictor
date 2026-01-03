@@ -187,4 +187,4 @@ Bash
 <img src="assets/second.jpeg" width="700">
 <img src="assets/third.jpeg" width="700">
 ## Jay Keluskar
-www.linkedin.com/in/jay-keluskar-b17601358
+- www.linkedin.com/in/jay-keluskar-b17601358
