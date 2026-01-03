@@ -150,7 +150,6 @@ Predicts probabilities for: Home Win, Draw, or Away Win.
 1️⃣ Clone the Repository
 Bash
 git clone https://github.com/Jayz-yuors/Football-Match-Predictor.git
-
 cd Football-Match-Predictor
 ---
 2️⃣ Create Virtual Environment
@@ -160,52 +159,52 @@ Bash
 ---
 3️⃣ Install Dependencies
 Bash
-pip install -r requirements.txt
+- pip install -r requirements.txt
 ---
 4️⃣ Set API Key
 Bash
-export FOOTBALL_DATA_API_KEY=your_api_key_here
+ - export FOOTBALL_DATA_API_KEY=your_api_key_here
 🏋️ Training Models (Optional)
-Models are already trained, but you can retrain them using:
+- Models are already trained, but you can retrain them using:
 Bash
-python -m model.training.train_model
-Premier League model is already trained.
-Other leagues are trained automatically.
+- python -m model.training.train_model
+- Premier League model is already trained.
+- Other leagues are trained automatically.
 ---
 ▶️ Running Predictions
 Bash
-python -m run_prediction
+- python -m run_prediction
 🔁 Execution Flow
-Select league
-View upcoming matchday fixtures
-Choose a fixture
-Get match outcome probabilities
-View:
-Current league table
-League table after matchday simulation
-🖥️ Sample Output
-📅 Matchday Fixtures
-🔮 Match Prediction
-📊 League Table Simulation
-📈 Why This Project Matters
+- Select league
+- View upcoming matchday fixtures
+- Choose a fixture
+- Get match outcome probabilities
+- View:
+- Current league table
+- League table after matchday simulation
+- 🖥️ Sample Output
+- 📅 Matchday Fixtures
+- 🔮 Match Prediction
+- 📊 League Table Simulation
+- 📈 Why This Project Matters
 ---
 📌 Applications
-Sports analytics
-Betting and odds research
-Match outcome forecasting
-League performance simulation
-Feature engineering experimentation
+- Sports analytics
+- Betting and odds research
+- Match outcome forecasting
+- League performance simulation
+- Feature engineering experimentation
 ---
 💪 Strengths
-Fully modular architecture
-Multi-league scalability
-Clean separation of data, features, and inference
-Realistic league evolution modeling
+- Fully modular architecture
+- Multi-league scalability
+- Clean separation of data, features, and inference
+- Realistic league evolution modeling
 ---
 📜 License
-This project is released under the MIT License. You are free to use, modify, and distribute it with attribution.
+- This project is released under the MIT License. You are free to use, modify, and distribute it with attribution.
 ---
 🙌 Author
-Jay Keluskar Computer Engineering Student
-ML • Data • Sports Analytics
-Would you like me to add a "Project Structure" section to show how the folders are organized?
+- Jay Keluskar Computer Engineering Student
+- ML • Data • Sports Analytics
+- Would you like me to add a "Project Structure" section to show how the folders are organized?
