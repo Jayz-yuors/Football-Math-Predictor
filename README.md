@@ -182,11 +182,10 @@ Bash
 - View:
 - Current league table
 - League table after matchday simulation
-- 🖥️ Sample Output
-- 📅 Matchday Fixtures
-- 🔮 Match Prediction
-- 📊 League Table Simulation
-- 📈 Why This Project Matters
+## 🖥️ Outputs
+<img src="assets/first.jpeg" width="700">
+<img src="assets/second.jpeg" width="700">
+<img src="assets/third.jpeg" width="700">
 ---
 📌 Applications
 - Sports analytics
