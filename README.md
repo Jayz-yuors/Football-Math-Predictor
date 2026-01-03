@@ -117,126 +117,93 @@ All **processed datasets** are already provided so users can:
 > **You can directly use the datasets in `data_exports/` to build and train your own models or experiment with alternative ML approaches.**
 
 ---
-🛠 Feature Engineering
+**🛠 Feature Engineering**
 The core logic resides in model/feature_engineering/. Features include:
 
 League table position
-
 Goal difference
-
 Team form
-
 Head-to-head trends
-
 Team and player strength indicators
 
 ✅ Design Guarantees
 No data leakage
-
 Identical features for training and inference
-
 League-agnostic feature generation
 
 🤖 Model Training
 Each league has its own trained XGBoost model stored in trained_models/:
-
 PL_model.joblib (Premier League)
-
 PD_model.joblib (La Liga)
-
 SA_model.joblib (Serie A)
-
 BL1_model.joblib (Bundesliga)
-
 FL1_model.joblib (Ligue 1)
 
 🔍 Algorithm Details
 XGBoost (Multi-class classification)
-
 Predicts probabilities for: Home Win, Draw, or Away Win.
-
-⚙️ Installation & Setup
+--- 
+---
+**⚙️ Installation & Setup**
+---
 1️⃣ Clone the Repository
 Bash
-
 git clone https://github.com/Jayz-yuors/Football-Match-Predictor.git
 cd Football-Match-Predictor
+---
 2️⃣ Create Virtual Environment
 Bash
-
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
+---
 3️⃣ Install Dependencies
 Bash
-
 pip install -r requirements.txt
+---
 4️⃣ Set API Key
 Bash
-
 export FOOTBALL_DATA_API_KEY=your_api_key_here
 🏋️ Training Models (Optional)
 Models are already trained, but you can retrain them using:
-
 Bash
-
 python -m model.training.train_model
 Premier League model is already trained.
-
 Other leagues are trained automatically.
-
+---
 ▶️ Running Predictions
 Bash
-
 python -m run_prediction
 🔁 Execution Flow
 Select league
-
 View upcoming matchday fixtures
-
 Choose a fixture
-
 Get match outcome probabilities
-
 View:
-
 Current league table
-
 League table after matchday simulation
-
 🖥️ Sample Output
 📅 Matchday Fixtures
-
 🔮 Match Prediction
-
 📊 League Table Simulation
-
 📈 Why This Project Matters
+---
 📌 Applications
 Sports analytics
-
 Betting and odds research
-
 Match outcome forecasting
-
 League performance simulation
-
 Feature engineering experimentation
-
+---
 💪 Strengths
 Fully modular architecture
-
 Multi-league scalability
-
 Clean separation of data, features, and inference
-
 Realistic league evolution modeling
-
+---
 📜 License
 This project is released under the MIT License. You are free to use, modify, and distribute it with attribution.
-
+---
 🙌 Author
 Jay Keluskar Computer Engineering Student
-
 ML • Data • Sports Analytics
-
 Would you like me to add a "Project Structure" section to show how the folders are organized?
